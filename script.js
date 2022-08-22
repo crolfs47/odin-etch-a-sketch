@@ -1,5 +1,4 @@
-// Create 16x16 gird of square divs
-// Add 16 square div elements
+
 const gridContainer = document.querySelector('.grid-container');
 
 const width = 16;
@@ -13,6 +12,11 @@ for (i = 0; i < width; i++) {
         row.appendChild(square);
     }
 }
-    
 
-
+const squares = document.querySelectorAll('.square');
+squares.forEach((square) => {
+    square.addEventListener('mouseover', (e) => {
+        e.target.style.backgroundColor = 'green';
+    })
+}
+)
