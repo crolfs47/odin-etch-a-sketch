@@ -1,8 +1,8 @@
 
-const grid = document.querySelector('.grid');
 const width = 16;
 const gridWidth = 720;
 const hoverColor = '#5C9A80'
+const grid = document.querySelector('.grid');
 const btnChangeSize = document.querySelector('#btn-change-size');
 const btnEraser = document.querySelector('#btn-eraser');
 const btnReset = document.querySelector('#btn-reset');
